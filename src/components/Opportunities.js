@@ -37,7 +37,6 @@ const OpportunityList = () => {
   const [opportunities, setOpportunities] = useState([]);
 
   useEffect(() => {
-    // Instead of fetching from an API, we directly set the hard-coded opportunities
     setOpportunities(opportunitiesEx);
   }, []);
 
